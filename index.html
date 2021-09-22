@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1>Cash Register</h1>
+        </nav>
+    </header>
+    <div class="container warning">
+        <p id="text">Please provide a valid input</p>
+    </div>
+    <div class="container inputs">
+        <div class="inp">
+            <h3>Enter the bill amount: </h3>
+            <input id="bill" type="number">
+        </div>
+        <div class="inp">
+            <h3>Enter the cash given by the customer: </h3>
+            <input id="cash" type="number">
+        </div>
+    </div>
+    <div class="container change">
+        <button id="calc">Calculate</button>
+        <h2 class="result">Amount to return: <span id="giveback"></span> 💰</h2>
+        <div class="returns">
+            <div class="amount">
+                <h3>2000</h3>
+                <p id="twok">0</p>
+            </div>
+            <div class="amount">
+                <h3>500</h3>
+                <p id="fiveh">0</p>
+            </div>
+            <div class="amount">
+                <h3>200</h3>
+                <p id="twoh">0</p>
+            </div>
+            <div class="amount">
+                <h3>100</h3>
+                <p id="oneh">0</p>
+            </div>
+            <div class="amount">
+                <h3>50</h3>
+                <p id="fifty">0</p>
+            </div>
+            <div class="amount">
+                <h3>20</h3>
+                <p id="twenty">0</p>
+            </div>
+            <div class="amount">
+                <h3>10</h3>
+                <p id="ten">0</p>
+            </div>
+            <div class="amount">
+                <h3>5</h3>
+                <p id="five">0</p>
+            </div>
+            <div class="amount">
+                <h3>2</h3>
+                <p id="two">0</p>
+            </div>
+            <div class="amount">
+                <h3>1</h3>
+                <p id="one">0</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./cash.js"></script>
+</html>
